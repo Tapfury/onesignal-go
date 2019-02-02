@@ -76,6 +76,8 @@ type NotificationRequest struct {
 	SendAfter              string            `json:"send_after,omitempty"`
 	DelayedOption          string            `json:"delayed_option,omitempty"`
 	DeliveryTimeOfDay      string            `json:"delivery_time_of_day,omitempty"`
+	TTL                    int               `json:"ttl,omitempty"`
+	Priority               int               `json:"priority,omitempty"`
 	AndroidLEDColor        string            `json:"android_led_color,omitempty"`
 	AndroidAccentColor     string            `json:"android_accent_color,omitempty"`
 	AndroidVisibility      int               `json:"android_visibility,omitempty"`
