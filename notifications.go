@@ -73,6 +73,7 @@ type NotificationRequest struct {
 	ChromeWebIcon          string            `json:"chrome_web_icon,omitempty"`
 	FirefoxIcon            string            `json:"firefox_icon,omitempty"`
 	URL                    string            `json:"url,omitempty"`
+	AndroidChannelID       string            `json:"android_channel_id,omitempty"`
 	SendAfter              string            `json:"send_after,omitempty"`
 	DelayedOption          string            `json:"delayed_option,omitempty"`
 	DeliveryTimeOfDay      string            `json:"delivery_time_of_day,omitempty"`
